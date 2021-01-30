@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ESP8266)(type KiCad)(uri Z:/Library/kicad-ESP8266/ESP8266.pretty)(options "")(descr ""))
+  (lib (name Library)(type KiCad)(uri Z:/Library)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type KiCad)(uri Z:/Library/SamacSys_Parts.pretty)(options "")(descr ""))
+)
