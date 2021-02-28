@@ -490,8 +490,6 @@ NoConn ~ 1100 3700
 NoConn ~ 1100 3800
 NoConn ~ 2700 3200
 NoConn ~ 2700 3500
-NoConn ~ 2700 3700
-NoConn ~ 2700 3800
 NoConn ~ 2700 3900
 NoConn ~ 2700 4000
 NoConn ~ 2700 4100
@@ -544,18 +542,6 @@ F 3 "" H 3750 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 3300 3500 3300
-Wire Wire Line
-	3500 3300 3500 3200
-Wire Wire Line
-	3500 3200 3850 3200
-Wire Wire Line
-	2700 3400 3500 3400
-Wire Wire Line
-	3500 3400 3500 3500
-Wire Wire Line
-	3500 3500 3850 3500
-Wire Wire Line
 	3750 2250 3750 3100
 Wire Wire Line
 	3750 3600 3850 3600
@@ -574,4 +560,18 @@ Wire Wire Line
 Connection ~ 3750 3100
 Wire Wire Line
 	3750 3100 3750 3300
+Wire Wire Line
+	2700 3700 3300 3700
+Wire Wire Line
+	3300 3700 3300 3200
+Wire Wire Line
+	3300 3200 3850 3200
+Wire Wire Line
+	2700 3800 3400 3800
+Wire Wire Line
+	3400 3800 3400 3500
+Wire Wire Line
+	3400 3500 3850 3500
+NoConn ~ 2700 3300
+NoConn ~ 2700 3400
 $EndSCHEMATC
