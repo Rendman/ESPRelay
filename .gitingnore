@@ -1,0 +1,6 @@
+Mfg Data/
+Gerber/
+GCode/
+*.kicad_pcb-bak
+*.sch-bak
+*.FCStd1
